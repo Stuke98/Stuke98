@@ -3,13 +3,9 @@
 	<head>
 		<meta charset="utf-8"> <!-- set character encoding -->
 		<meta name="viewport" content="width=device-width, initial-scale=1"> <!-- set viewport -->
-		<title>Shop</title>
-		<link rel="stylesheet" type="text/css" media= "screen" href="../css/style.css"> 
-		<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.1.min.js"></script><!-- Link minified jquery-->
-
-		<script type="text/javascript" src="http://www.jeasyui.com/easyui/jquery.easyui.min.js"></script>	<!-- Link to easy ui-->	
-
-		<script src="../js/script.js"></script> <!-- Link to js document-->
+		<title>Music</title>
+		<link rel="stylesheet" type="text/css" media= "screen" href="../css/style.css">
+		<link>
 	</head>
 	<body>
 		<div id="wrapper"> <!-- wrap all the elements of the page -->
@@ -18,92 +14,14 @@
 			<nav id="menu"> <!-- navigation bar -->
 				<a class="logo" title="Hoosiers logo" href="#"><img  src="../assets/logo.jpg" alt="Hoosiers logo"></a>
 				<ul>
-					<li><a href="../index.html"><h1>Music</h1></a></li>
-					<li><a href="videos.html"><h1>Videos</h1></a></li><!-- links to different pages -->
+					<li><a href="index.html"><h1>Music</h1></a></li>
+					<li><a href="tours.html"><h1>Tours</h1></a></li>
+					<li><a href="videos.html"><h1>Videos</h1></a></li>
 					<li><a href="news.html"><h1>News</h1></a></li>
 					<li class="current"><a href="shop.html"><h1>Shop</h1></a></li>
 					<li><a href="about.html"><h1>About</h1></a></li>
-					<li><a href="demo.html"><h1>DEMO</h1></a></li>
 				</ul>
 			</nav>
-		
-			<ul>
-				<div class="item-cont-low">
-					<li class="item-cont">
-						<a href="#" class="item">
-							<img src="../assets/trick-to-life.jpg" height="150px" width="150px" >
-							<div>
-								<p>The trick to life CD</p>
-								<p>Price:£10</p>
-							</div>
-						</a>
-					</li>
-					<li class="item-cont">
-						<a href="#" class="item">
-							<img src="../assets/the-secret-service.jpg" height="150px" width="150px">
-							<div>
-								<p>The Secret Service CD</p>
-								<p>Price:£10</p>
-							</div>
-						</a>
-					</li>
-					<li class="item-cont">
-						<a href="#" class="item">
-							<img src="../assets/news-from-nowhere.jpg" height="150px" width="150px">
-							<div>
-								<p>The News From Nowhere CD</p>
-								<p>Price:£10</p>
-							</div>
-						</a>
-					</li>
-				</div>
-				<div class="item-cont-low">
-				<li class="item-cont">
-					<a href="#" class="item">
-						<img src="../assets/hat.jpg" height="150px" width="150px">
-						<div>
-							<p>Hoosiers Hat</p>
-							<p>Price:£15</p>
-						</div>
-					</a>
-				</li>
-				<li class="item-cont">
-					<a href="#" class="item">
-						<img src="../assets/purple-shirt.jpg" height="150px" width="150px">
-						<div>
-							<p>Hoosiers Shirt</p>
-							<p>Price:£20</p>
-						</div>
-					</a>
-				</li>
-				<li class="item-cont"class="item-cont" >
-					<a href="#" class="item">
-						<img src="../assets/secret-service-shirt.jpg" height="150px" width="150px">
-						<div>
-							<p>Secret Service Shirt</p>
-							<p>Price:£20</p>
-						</div>
-					</a>
-				</li>
-				</div>
-			</ul>
-			<div class="cart">
-				<h1>Shopping Cart</h1>
-				<div style="background:#004b80">
-				<table id="cartcontent" fitColumns="true" style="width:300px;height:180px;">
-					<!-- create table elements-->
-					<thead>
-						<tr>
-							<th field="name" width=140>Name</th>
-							<th field="quantity" width=60 align="right">Quantity</th>
-							<th field="price" width=60 align="right">Price</th>
-						</tr>
-					</thead>
-				</table>
-				</div>
-				<!-- display the final total of the table -->
-				<p class="total">Total: $0</p>
-			</div>
 		</div>
 	</body>
 </html>

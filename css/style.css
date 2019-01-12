@@ -9,9 +9,6 @@ body {
 	background-color: #e7e7e7;
 }
 
-a:link {		/*remove default underline*/
-	text-decoration: none;
-}
 #wrapper {
 	width: 100%;
 }
@@ -23,17 +20,17 @@ nav {
 	background-color: #0864ad;
 }
 
-nav ul {	/*positioning of list items*/
+nav ul {
 	float: left;
 }
 
-nav ul li {	/*positioning of list items*/
+nav ul li {
 	list-style: none;
 	display: inline-block;
 	padding: 0 20px;
 }
 
-nav ul li a {	/*styling the navigation bar for page*/
+nav ul li a {
 	text-decoration: none;
 	color: #fff;
 	line-height: 120px;
@@ -44,7 +41,7 @@ nav ul li a:hover {	/*Hover effect*/
 	color: #bbb;
 }
 
-.current {	/*Allow for a changed colour on nav bar*/ 
+.current {
 	background-color: #004b80;
 }
 
@@ -57,7 +54,7 @@ nav ul li a:hover {	/*Hover effect*/
 .logo img {
 	height: 120px;
 }
-/*button properties, including hover*/
+
 
 #btn1, #btn2, #btn3 {
 	display: inline-block;
@@ -68,50 +65,25 @@ nav ul li a:hover {	/*Hover effect*/
 	line-height: 150px;
 }
 
-
-#btn1 a h2:hover, #btn2 a h2:hover, #btn3 a h2:hover {
-	background-color: #004b80;
-}
-
 #btn1 h2, #btn2 h2, #btn3 h2 {
 	color: #fff;
 	padding-left: 80px;
 	text-decoration: none;
-} 
-/*More button styling, diff page*/
-
-.btn {
-	display: inline-block;
-	margin-top: 100px;
-	background-color: #0864ad;
-	width: 33%;
-	height: 150px;
-	line-height: 150px;
-	font-size: 1.2em;
 }
 
-.btn:hover { 		/*on hover for changing color*/
-	background-color: #004b80;
-}
 
-.btn h2 {
-	color: #fff;
-	padding-left: 200px;
-	text-decoration: none;
-}
-
-/*positioning for the embedded playlists*/
-.playlist {
+#playlist {
 	display: inline-block;
 	margin-top: 100px;
 	width: 100%;
 	padding-left: 25%;
 }
-	/*Some styling for both vid and playlist*/
+
 iframe {
 	width: 50%;
 	height: 400px;
 }
+<<<<<<< HEAD
 
 /*Target video containers*/
 
@@ -295,3 +267,5 @@ h1{
 	padding-top: 200px;
 	color: #fff;
 }
+=======
+>>>>>>> parent of a8e41b2... Test3
