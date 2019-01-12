@@ -70,17 +70,6 @@ nav ul li a:hover {	/*Hover effect*/
 	line-height: 150px;
 }
 
-@media (max-width: 600px)
-{
-	#btn1, #btn2, #btn3 {
-	display: inline-block;
-	margin-top: 100px;
-	background-color: #0864ad;
-	width: 10%;
-	height: 150px;
-	line-height: 150px;
-}
-
 
 #btn1 a h2:hover, #btn2 a h2:hover, #btn3 a h2:hover {
 	background-color: #004b80;
