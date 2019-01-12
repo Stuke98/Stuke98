@@ -38,10 +38,16 @@ nav ul li a {	/*styling the navigation bar for page*/
 	color: #fff;
 	line-height: 120px;
 	width: 100%;
+	background-color: #0864ad;
 }
 
 nav ul li a:hover {	/*Hover effect*/
 	color: #bbb;
+}
+
+@media only screen and (max-width: 1000px)
+{
+
 }
 
 .current {	/*Allow for a changed colour on nav bar*/ 
